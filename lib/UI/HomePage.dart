@@ -50,11 +50,12 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       Expanded(
                         child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+
                           children: <Widget>[
-                            Image(image: AssetImage('assets/images/logo.jpg'),
+                            Image(image: AssetImage('assets/images/maxresdefault.jpg'),
                             fit: BoxFit.contain,
-                              height: 100.0,
+                              height: 200.0,
                               width: 300.0,
                             ),
 
@@ -160,8 +161,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: <Widget>[
                   Expanded(
                     child: DashboardButton(
-                      icon: CupertinoIcons.speaker_2,
-                      text: 'Swamiji speech',
+                      icon: CupertinoIcons.info,
+                      text: 'Gurukul Intro',
                       onTap: () {
                         Navigator.push(
                           context,

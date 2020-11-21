@@ -11,6 +11,9 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  var UserName = TextEditingController();
+  var Password = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,6 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: TextField(
+                  controller: UserName,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     hintText: 'User Name',
@@ -52,7 +56,8 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: TextField(
-                  maxLength: 10,
+                  controller: Password,
+                  maxLength: 6,
                   obscureText: true,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
@@ -92,7 +97,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
                 child: RaisedButton(
                   shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(18.0),
+                      borderRadius: BorderRadius.circular(14.0),
                       side: BorderSide(color: Colors.blue)),
                   color: Colors.blue,
                   textColor: Colors.white,
@@ -101,7 +106,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     style:
                         GoogleFonts.merriweather(fontWeight: FontWeight.bold),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    UserName.clear();
+                    Password.clear();
+
+                    print(UserName);
+                  },
                 )),
             SizedBox(
               height: 30.0,

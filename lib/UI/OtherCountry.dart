@@ -60,12 +60,13 @@ class _OtherCountryBranchState extends State<OtherCountryBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "London, UK Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "14 Ivanhoe Drive HA3 8QP, London, Harrow - HA3 8QP."),
+                              "14 Ivanhoe Drive HA3 8QP, London, Harrow - HA3 8QP.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -116,12 +117,13 @@ class _OtherCountryBranchState extends State<OtherCountryBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Santo Domingo Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Calle C #27 Esq. Calle 3ra, Ciudad Agraria, Santiago - -."),
+                              "Calle C #27 Esq. Calle 3ra, Ciudad Agraria, Santiago",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -172,11 +174,12 @@ class _OtherCountryBranchState extends State<OtherCountryBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Toronto Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("1164 Caen ave., Woodstock, Ontario - N4T 0G3."),
+                          Text("1164 Caen ave., Woodstock, Ontario - N4T 0G3.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -227,11 +230,12 @@ class _OtherCountryBranchState extends State<OtherCountryBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Australia Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("4 Blaze Tce, Tarneit, Victoria - 3029."),
+                          Text("4 Blaze Tce, Tarneit, Victoria - 3029.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,

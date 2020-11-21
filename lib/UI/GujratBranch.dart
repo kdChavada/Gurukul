@@ -56,11 +56,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Rajkot Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Dhebar Road, Rajkot, Gujarat - 360 002."),
+                          Text("Dhebar Road, Rajkot, Gujarat - 360 002.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -108,11 +110,12 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Junagadh Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("College Road, Junagadh, Gujarat - 362 001."),
+                          Text("College Road, Junagadh, Gujarat - 362 001.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -160,11 +163,12 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Surat Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Gurukul Road (Ved), Surat, Gujarat - 395 004."),
+                          Text("Gurukul Road (Ved), Surat, Gujarat - 395 004.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -212,12 +216,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Taravada Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Dist - Amreli Ta  - Amreli Via -Taravada, Gujarat - 365 610"),
+                              "Dist - Amreli Ta  - Amreli Via -Taravada, Gujarat - 365 610",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -264,12 +269,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Gyanbag Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Sabalpur, Rajkot highway, Gyanbag Junagadh, Gujarat - 362 001."),
+                              "Sabalpur, Rajkot highway, Gyanbag Junagadh, Gujarat - 362 001.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -317,11 +323,12 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Navsari Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Gandevi Highway, Navsari, Gujarat - 396 350."),
+                          Text("Gandevi Highway, Navsari, Gujarat - 396 350.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -369,12 +376,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Morbi Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Morbi-Maliya Bypass,, Morbi, Gujarat - 363 642."),
+                              "Morbi-Maliya Bypass,, Morbi, Gujarat - 363 642.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -422,12 +430,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Nilkanthdham Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Shree Swaminarayan Gurukul, Nilkanthdham Poicha, Narmada, Gujarat - 393 145.  "),
+                              "Shree Swaminarayan Gurukul, Nilkanthdham Poicha, Narmada, Gujarat - 393 145.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -475,12 +484,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Varnindradham Patadi Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Patdi - Viramgam Road, Patdi, Gujarat - 382 765"),
+                              "Patdi - Viramgam Road, Patdi, Gujarat - 382 765",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -529,12 +539,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Keshod Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Axaygadh, Dist. Junagadh, Keshod, Gujarat - 362 220."),
+                              "Axaygadh, Dist. Junagadh, Keshod, Gujarat - 362 220.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -583,12 +594,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Una Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Anandgadh, Opp. Rokadiya Hanuman, Bhavnagar Road, Una, Gujarat - 362 220."),
+                              "Anandgadh, Opp. Rokadiya Hanuman, Bhavnagar Road, Una, Gujarat - 362 220.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -636,12 +648,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Bhayavadar Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Padvala Road, Ta. Upleta, Di. Rajkot, Bhayavadar, Gujarat - 360 450."),
+                              "Padvala Road, Ta. Upleta, Di. Rajkot, Bhayavadar, Gujarat - 360 450.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -690,11 +703,12 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Vadodara Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Varnama, Vadodra, Gujarat - 391 240."),
+                          Text("Varnama, Vadodra, Gujarat - 391 240.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -742,11 +756,12 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Bhavnagar Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Shampara, Bhavnagar, Gujarat - 364 060."),
+                          Text("Shampara, Bhavnagar, Gujarat - 364 060.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -795,12 +810,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Ratanpar Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Rajkot Morbi High-Way, B/H. Ram Manas Mandir, Ratanpar, Gujarat - 360 003."),
+                              "Rajkot Morbi High-Way, B/H. Ram Manas Mandir, Ratanpar, Gujarat - 360 003.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -849,12 +865,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Vidyanagar Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Bakrol Vadtal Road, Vidyanagar, Gujarat - 388 315."),
+                              "Bakrol Vadtal Road, Vidyanagar, Gujarat - 388 315.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -902,12 +919,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Jasdan Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Khanpar Rd, Shiv Shakti Society, Jasdan, Gujarat - 360 050."),
+                              "Khanpar Rd, Shiv Shakti Society, Jasdan, Gujarat - 360 050.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -956,12 +974,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Ahmedabad Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Nikol Gam Road, Nikol, Ahmedabad, Gujarat - 382 350."),
+                              "Nikol Gam Road, Nikol, Ahmedabad, Gujarat - 382 350.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -1010,12 +1029,13 @@ class _GujratBranchState extends State<GujratBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Jamnagar Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Theba Chokdi, Near Railway Over Bridge, Jamnagar, Gujarat - 361120."),
+                              "Theba Chokdi, Near Railway Over Bridge, Jamnagar, Gujarat - 361120.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,

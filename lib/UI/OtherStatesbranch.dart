@@ -56,12 +56,13 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Hyderabad Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Chevella Road, R. R. District, Moinabad Mandal, Hyderabad, Telangana - 500 075."),
+                              "Chevella Road, R. R. District, Moinabad Mandal, Hyderabad, Telangana - 500 075.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -109,12 +110,13 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Mumbai Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Sector 29, Nr. Rajivgandhi Garden, Vashi, New Mumbai, Maharashtra - 400 703."),
+                              "Sector 29, Nr. Rajivgandhi Garden, Vashi, New Mumbai, Maharashtra - 400 703.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -163,12 +165,13 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Bangalore Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Mysore Road, Kengeri, Po. Kumbalgodu, Bangalore, Karnataka - 560 074."),
+                              "Mysore Road, Kengeri, Po. Kumbalgodu, Bangalore, Karnataka - 560 074.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -216,12 +219,13 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Bidar Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Bidar-Zaheerabad Road, Po. Mirzapur, Nyalkal (M) Sangareddy (D)... Bidar, Telangana - 502 249."),
+                              "Bidar-Zaheerabad Road, Po. Mirzapur, Nyalkal (M) Sangareddy (D)... Bidar, Telangana - 502 249.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -269,11 +273,12 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Gulbarga Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Sy. No. 140/1, Gulbarga, Karnataka - 585 102"),
+                          Text("Sy. No. 140/1, Gulbarga, Karnataka - 585 102",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -321,12 +326,13 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Jadcherla Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Nagarkarnool Road, Jadcherla, Telangana - 509 301"),
+                              "Nagarkarnool Road, Jadcherla, Telangana - 509 301",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -375,11 +381,12 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               " Nagpur Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Bhandara Road, Nagpur, Maharashtra - 441 104."),
+                          Text("Bhandara Road, Nagpur, Maharashtra - 441 104.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -427,12 +434,13 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Navi Mumbai (Chowk) Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "Mumbai Pune NH-4, Mumbai, Maharashtra - 410 206."),
+                              "Mumbai Pune NH-4, Mumbai, Maharashtra - 410 206.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -480,11 +488,12 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Solapur Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Sy. No. 211/1A, Solapur, Maharashtra - 413 006."),
+                          Text("Sy. No. 211/1A, Solapur, Maharashtra - 413 006.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -531,11 +540,13 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Vijayawada Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("NH 9, Vijayvada, Andhra Pradesh - 521 456."),
+                          Text("NH 9, Vijayvada, Andhra Pradesh - 521 456.",style: GoogleFonts.rye(fontWeight: FontWeight.bold
+                          ),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -582,11 +593,12 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "New Delhi Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("Gurgaon Faridabad Road, Green Valley, DLF Farm, New Delhi, Haryana - 122 102."),
+                          Text("Gurgaon Faridabad Road, Green Valley, DLF Farm, New Delhi, Haryana -122 102.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -633,11 +645,12 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "NTPC Lara Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("NTPC Lara Township, Mahaloi, Chhattisgarh - 496 440."),
+                          Text("NTPC Lara Township, Mahaloi, Chhattisgarh - 496 440.",style: GoogleFonts.rye(fontWeight: FontWeight.bold),),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -674,53 +687,3 @@ class _OtherStateBranchState extends State<OtherStateBranch> {
     );
   }
 }
-
-// Container(
-// padding: EdgeInsets.all(10.0),
-// child: Card(
-// child: Container(
-// child: Column(
-// children: [
-// Column(
-// children: [
-// Image(
-// image: AssetImage(
-// 'assets/images/OtherStates/'),
-// ),
-// Padding(
-// padding: const EdgeInsets.all(8.0),
-// child: Text(
-// "",
-// style: GoogleFonts.oleoScript(
-// fontWeight: FontWeight.bold),
-// ),
-// ),
-// Text(
-// ""),
-// ListTile(
-// leading: Icon(
-// CupertinoIcons.phone_fill,
-// color: Colors.blueGrey,
-// ),
-// title: Text(
-// "",
-// style: GoogleFonts.viga(color: Colors.red),
-// ),
-// ),
-// ListTile(
-// leading: Icon(
-// CupertinoIcons.mail_solid,
-// color: Colors.blueGrey,
-// ),
-// title: Text(
-// "",
-// style: GoogleFonts.viga(color: Colors.red),
-// ),
-// ),
-// ],
-// )
-// ],
-// ),
-// ),
-// ),
-// ),

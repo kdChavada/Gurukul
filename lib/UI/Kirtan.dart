@@ -19,9 +19,7 @@ class _KirtanState extends State<Kirtan> {
           style: GoogleFonts.lemonada(color: Colors.white),
         ),
       ),
-      body: Center(
-        child: Text("Coming Soon"),
-      ),
+       body:Center(),
     );
   }
 }

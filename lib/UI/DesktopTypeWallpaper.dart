@@ -317,7 +317,7 @@ class _DesktopTypeState extends State<DesktopType> {
                             ),
                           ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),

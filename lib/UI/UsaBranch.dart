@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 class UsaBranch extends StatefulWidget {
   @override
   _UsaBranchState createState() => _UsaBranchState();
@@ -55,11 +56,15 @@ class _UsaBranchState extends State<UsaBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Dallas Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("621 Park Vista Rd, Plano, Texas - 75094."),
+                          Text(
+                            "621 Park Vista Rd, Plano, Texas - 75094.",
+                            style: GoogleFonts.rye(fontWeight: FontWeight.bold),
+                          ),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -107,11 +112,15 @@ class _UsaBranchState extends State<UsaBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "New Jersey Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("205 Spring Valley Road, Paramus, New Jersey - 07652."),
+                          Text(
+                            "205 Spring Valley Road, Paramus, New Jersey - 07652.",
+                            style: GoogleFonts.rye(fontWeight: FontWeight.bold),
+                          ),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -159,11 +168,15 @@ class _UsaBranchState extends State<UsaBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Chicago Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("401 S. Evergreen Ave., Arlington Heights, Illinois - 60005."),
+                          Text(
+                            "401 S. Evergreen Ave., Arlington Heights, Illinois - 60005.",
+                            style: GoogleFonts.rye(fontWeight: FontWeight.bold),
+                          ),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -211,12 +224,15 @@ class _UsaBranchState extends State<UsaBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Phoenix Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "1150 W. Superstition Blvd., Apache Junction, Arizona - 85120."),
+                            "1150 W. Superstition Blvd., Apache Junction, Arizona - 85120.",
+                            style: GoogleFonts.rye(fontWeight: FontWeight.bold),
+                          ),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -257,18 +273,22 @@ class _UsaBranchState extends State<UsaBranch> {
                       Column(
                         children: [
                           Image(
-                            image: AssetImage('assets/images/USA/list_atlanta_1573024669.jpg'),
+                            image: AssetImage(
+                                'assets/images/USA/list_atlanta_1573024669.jpg'),
                           ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Atlanta Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "2320 Meadow Church Way, Duluth, Georgia - 30097."),
+                            "2320 Meadow Church Way, Duluth, Georgia - 30097.",
+                            style: GoogleFonts.rye(fontWeight: FontWeight.bold),
+                          ),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -316,11 +336,15 @@ class _UsaBranchState extends State<UsaBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "Springfield Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
-                          Text("3150 Chatham Rd., Springfield, Illinois - 62704."),
+                          Text(
+                            "3150 Chatham Rd., Springfield, Illinois - 62704.",
+                            style: GoogleFonts.rye(fontWeight: FontWeight.bold),
+                          ),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -368,12 +392,15 @@ class _UsaBranchState extends State<UsaBranch> {
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               "San Antonio Branch",
-                              style: GoogleFonts.oleoScript(
+                              style: GoogleFonts.viga(
+                                  color: Colors.red,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                           Text(
-                              "1240 Holbrook Rd., San Antonio, Texas - 78218."),
+                            "1240 Holbrook Rd., San Antonio, Texas - 78218.",
+                            style: GoogleFonts.rye(fontWeight: FontWeight.bold),
+                          ),
                           ListTile(
                             leading: Icon(
                               CupertinoIcons.phone_fill,
@@ -401,7 +428,6 @@ class _UsaBranchState extends State<UsaBranch> {
                 ),
               ),
             ),
-
           ],
         ),
       ),

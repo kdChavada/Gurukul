@@ -7,6 +7,12 @@ class SignIn extends StatefulWidget {
 }
 
 class _SignInState extends State<SignIn> {
+
+final YourName = TextEditingController();
+final YourEmail = TextEditingController();
+final Password = TextEditingController();
+final ConfirmPassword = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,6 +42,7 @@ class _SignInState extends State<SignIn> {
               child: Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: TextField(
+                  controller: YourName,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     hintText: 'Enter Your Name',
@@ -52,6 +59,7 @@ class _SignInState extends State<SignIn> {
               child: Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: TextField(
+                  controller: YourEmail,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     hintText: 'Enter Your Email',
@@ -69,7 +77,8 @@ class _SignInState extends State<SignIn> {
               child: Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: TextField(
-                  maxLength: 10,
+                  controller: Password,
+                  maxLength: 6,
                   obscureText: true,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
@@ -85,7 +94,8 @@ class _SignInState extends State<SignIn> {
               child: Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: TextField(
-                  maxLength: 10,
+                  controller: ConfirmPassword,
+                  maxLength: 6,
                   obscureText: true,
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
@@ -113,7 +123,13 @@ class _SignInState extends State<SignIn> {
                     style:
                     GoogleFonts.merriweather(fontWeight: FontWeight.bold),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    YourName.clear();
+                    YourEmail.clear();
+                    Password.clear();
+                    ConfirmPassword.clear();
+
+                  },
                 )),
 
 

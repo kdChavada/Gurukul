@@ -8,7 +8,7 @@ class SwamijiSpech extends StatefulWidget {
 }
 
 class _SwamijiSpechState extends State<SwamijiSpech> {
-  String videoURL = "https://www.youtube.com/watch?v=f_OjzwM14ak";
+  String videoURL = "https://www.youtube.com/watch?v=PLe9XKQkSJE";
 
   YoutubePlayerController _controller;
 
@@ -28,7 +28,7 @@ class _SwamijiSpechState extends State<SwamijiSpech> {
         centerTitle: true,
         elevation: 0,
         title: Text(
-          'SwamijiSpech',
+          'Gurukul Intro',
           style: GoogleFonts.lemonada(color: Colors.white),
         ),
       ),

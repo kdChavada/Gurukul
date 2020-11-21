@@ -9,8 +9,7 @@ class About extends StatefulWidget {
 class _AboutState extends State<About> {
   @override
   Widget build(BuildContext context) {
-    double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.purple,
@@ -181,7 +180,7 @@ class _AboutState extends State<About> {
                       color: Colors.red,
                     ),
                     title: Text(
-                      "Rajkot Gujrat",
+                      "Rajkot Gujarat",
                       style: GoogleFonts.viga(),
                     ),
                   ),

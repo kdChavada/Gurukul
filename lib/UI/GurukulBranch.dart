@@ -38,6 +38,8 @@ class _GurukulBranchState extends State<GurukulBranch> {
               child: Container(
                 padding: EdgeInsets.all(10.0),
                 child: Card(
+                  elevation: 20.0,
+                shadowColor: Colors.purple,
                   child: Container(
                     child: Column(
                       children: [
@@ -53,7 +55,7 @@ class _GurukulBranchState extends State<GurukulBranch> {
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
                                 "Gujrat  Branch",
-                                style: GoogleFonts.oleoScript(
+                                style: GoogleFonts.viga(
                                     fontWeight: FontWeight.bold),
                               ),
                             ),
@@ -78,6 +80,8 @@ class _GurukulBranchState extends State<GurukulBranch> {
               child: Container(
                 padding: EdgeInsets.all(10.0),
                 child: Card(
+                  elevation: 20.0,
+                  shadowColor: Colors.purple,
                   child: Container(
                     child: Column(
                       children: [
@@ -93,7 +97,7 @@ class _GurukulBranchState extends State<GurukulBranch> {
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
                                 "Other-States Branch",
-                                style: GoogleFonts.oleoScript(
+                                style: GoogleFonts.viga(
                                     fontWeight: FontWeight.bold),
                               ),
                             ),
@@ -118,6 +122,8 @@ class _GurukulBranchState extends State<GurukulBranch> {
               child: Container(
                 padding: EdgeInsets.all(10.0),
                 child: Card(
+                  elevation: 20.0,
+                  shadowColor: Colors.purple,
                   child: Container(
                     child: Column(
                       children: [
@@ -133,7 +139,7 @@ class _GurukulBranchState extends State<GurukulBranch> {
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
                                 "USA Branch",
-                                style: GoogleFonts.oleoScript(
+                                style: GoogleFonts.viga(
                                     fontWeight: FontWeight.bold),
                               ),
                             ),
@@ -158,6 +164,8 @@ class _GurukulBranchState extends State<GurukulBranch> {
               child: Container(
                 padding: EdgeInsets.all(10.0),
                 child: Card(
+                  elevation: 20.0,
+                  shadowColor: Colors.purple,
                   child: Container(
                     child: Column(
                       children: [
@@ -173,7 +181,7 @@ class _GurukulBranchState extends State<GurukulBranch> {
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
                                 "Other-Countries Branch",
-                                style: GoogleFonts.oleoScript(
+                                style: GoogleFonts.viga(
                                     fontWeight: FontWeight.bold),
                               ),
                             ),

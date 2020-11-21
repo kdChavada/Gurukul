@@ -51,7 +51,8 @@ class _DailyQuoteState extends State<DailyQuote> {
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
                                 "Mobile WallPaper",
-                                style: GoogleFonts.oleoScript(
+                                style: GoogleFonts.viga
+                                  (
                                     fontWeight: FontWeight.bold),
                               ),
                             ),
@@ -89,7 +90,7 @@ class _DailyQuoteState extends State<DailyQuote> {
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
                                 "Desktop Wallpaper",
-                                style: GoogleFonts.oleoScript(
+                                style: GoogleFonts.viga(
                                     fontWeight: FontWeight.bold),
                               ),
                             ),
